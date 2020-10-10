@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "592946360083",
+    "firebase_url": "https://hyeongsik-textchat.firebaseio.com",
+    "project_id": "hyeongsik-textchat",
+    "storage_bucket": "hyeongsik-textchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592946360083:android:81e3f2662d8db9059174e6",
+        "android_client_info": {
+          "package_name": "com.example.test201009_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592946360083-rcl7vill532fgeil06v0c1aops0vo1ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.test201009_2",
+            "certificate_hash": "a7ffa29f186262dfbd24313404c47acf39c4fdd3"
+          }
+        },
+        {
+          "client_id": "592946360083-45gbfqro6t2goc5goka139n9o1op3tp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB6dpWpVr42gsYMvey2WzPLgsh6rNNaKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592946360083-45gbfqro6t2goc5goka139n9o1op3tp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
