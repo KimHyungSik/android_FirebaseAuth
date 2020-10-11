@@ -14,9 +14,25 @@
         android:layout_height="match_parent"
         android:layout_weight="10"
         />
-    <Button
-        android:id="@+id/addItem_btn"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        />
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/addItem_btn"
+            android:text="Add Image"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/logOut"
+            android:text="LogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
   </LinearLayout>

@@ -8,7 +8,7 @@
 
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/email_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
@@ -18,18 +18,19 @@
         android:hint="email"/>
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/password_text"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/email"
+        app:layout_constraintTop_toBottomOf="@id/email_text"
         android:layout_margin="25dp"
         android:hint="password"/>
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password_text"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
@@ -39,10 +40,10 @@
         />
 
     <Button
-        android:id="@+id/singup"
+        android:id="@+id/signUp_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
@@ -50,5 +51,26 @@
         android:text="Sing Up"
         android:textColor="#ffffff"
         />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signInGoogleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUp_btn"
+        />
+
+    <ProgressBar
+        android:id="@+id/Loading_bar"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="80dp"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUp_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
